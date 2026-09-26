@@ -1,0 +1,11 @@
+-pwd:show where
+-ls:list
+-cd:change directory
+-mkdir:make direntory
+-rm -r:remove dir
+-rm:remove
+-chmod+x:+execute permission
+
+-ls |grep hello: list an find
+-ls >list.txt: output to list.txt(overwrite)
+-echo "hi" >> log.txt:append
