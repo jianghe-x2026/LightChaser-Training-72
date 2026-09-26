@@ -1,8 +1,13 @@
+import os
 from openai import OpenAI
+from dotenv import load_dotenv  # 需要用到这个库
 
-# 这里填入你的 API Key
+# 加载 .env 文件里的环境变量
+load_dotenv()
+
+# 从环境变量中读取 Key
 client = OpenAI(
-    api_key="sk-54c1988cbc2145538f5045c0b524271b", 
+    api_key=os.getenv("DEEPSEEK_API_KEY"), 
     base_url="https://api.deepseek.com"
 )
 
