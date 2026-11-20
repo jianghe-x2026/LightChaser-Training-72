@@ -106,4 +106,6 @@
 
 \- 初始电机转速为0，转动旋钮可改变转速（共10档，除去0档），可在OLED上显示挡位，且有挡位显示进度条。
 \- 演示视频链接（见下一节）
+## 演示说明
 
+[点击观看/下载最终考核作品演示视频](https://github.com/jianghe-x2026/LightChaser-Training-72/releases/download/v1.0-final/default.mp4)
